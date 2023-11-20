@@ -2,21 +2,21 @@ let paginaAtual = 1;
 const produtosPorPagina = 5; 
 
 function showPage(page) {
-    const produtos = document.querySelectorAll('.product');
+    const produtos = document.querySelectorAll('.produto');
     const inicio = (page - 1) * produtosPorPagina;
     const fim = inicio + produtosPorPagina;
 
-    produtos.forEach((product, index) => {
+    produtos.forEach((produto, index) => {
         if (index >= inicio && index < fim) {
-            product.style.display = 'block';
+            produto.style.display = 'block';
         } else {
-            product.style.display = 'none';
+            produto.style.display = 'none';
         }
     });
 }
 
 function proximaPagina() {
-    const produtos = document.querySelectorAll('.product');
+    const produtos = document.querySelectorAll('.produto');
     const totalPages = Math.ceil(produtos.length / produtosPorPagina);
 
     if (paginaAtual < totalPages) {
