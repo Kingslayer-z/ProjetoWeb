@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Informática New World</title> 
+</head>
+<body>
+    <header>
+        <h1>Informática New World</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section>
+        <h2>Produtos em Destaque</h2>
+        <div class="product">
+            <img src="computador.jpg" alt="Produto 1">
+            <h3>Computador Gamer</h3>
+            <p>Intel Core i5 10400F de 10ª Geração <br>
+                Placa mãe ASUS <br>
+                SSD M.2 250GB <br>
+                Memória 16GB (1x16GB) 3000MHz, DDR4</p>
+            <p class="price">R$ 5500,00</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product">
+            <img src="monitor.jpg" alt="Produto 2">
+            <h3>Monitor AOC</h3>
+            <p>Monitor Gamer AOC 27" 144hz </p>
+            <p class="price">R$ 1000,00</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="pagination">
+            <button id="prevPage" onclick="paginaAnterior()">Anterior</button>
+            <button id="nextPage" onclick="proximaPagina()">Próxima</button>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2023 Informática New World. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
