@@ -17,53 +17,88 @@
             </ul>
         </nav>
     </header>
+ 
     <main>
         <section>
-            <h2>Produtos</h2>
-            <div class="product">
+            <h2>Todos os produtos</h2>
+            <div class="produto">
                 <img src="computador.jpg" alt="Produto 1">
                 <h3>Computador Gamer</h3>
                 <p>Intel Core i5 10400F de 10ª Geração <br>
                     Placa mãe ASUS <br>
                     SSD M.2 250GB <br>
                     Memória 16GB (1x16GB) 3000MHz, DDR4</p>
-                <p class="price">R$ 5500,00</p>
+                <p class="preco">R$ 5500,00</p>
                 <button>Adicionar ao Carrinho</button>
             </div>
-            <div class="product">
+            <div class="produto">
                 <img src="monitor.jpg" alt="Produto 2">
                 <h3>Monitor AOC</h3>
                 <p>Monitor Gamer AOC 27" 144hz </p>
-                <p class="price">R$ 1000,00</p>
+                <p class="preco">R$ 1000,00</p>
                 <button>Adicionar ao Carrinho</button>
             </div>
-            <div class="product">
+            <div class="produto">
                 <img src="memoriaram.jpg" alt="Produto 3">
                 <h3>Memória RAM Corsair </h3>
                 <p>Corsair Memoria RAM Vengeance RGB Pro SL 16GB 2x8GB DDR4 3600Mhz</p>
-                <p class="price">R$ 500,00</p>
+                <p class="preco">R$ 500,00</p>
                 <button>Adicionar ao Carrinho</button>
             </div>
-            <div class="product">
+            <div class="produto">
                 <img src="memoriaram2.jpg" alt="Produto 4">
                 <h3>Memoória RAM Viper</h3>
                 <p>Patriot Memoria RAM Viper Elite II 16GB 2x8GB DDR4 3200Mhz</p>
-                <p class="price">R$ 450,00</p>
+                <p class="preco">R$ 450,00</p>
                 <button>Adicionar ao Carrinho</button>
             </div>
-            <div class="product">
+            <div class="produto">
                 <img src="placamae.png" alt="Produto 5">
                 <h3>Placa mãe Gigabyte</h3>
                 <p>IPLACA MÃE GIGABYTE H510M H, CHIPSET H510, INTEL LGA 1200, MATX, DDR4</p>
-                <p class="price">R$ 700,00</p>
+                <p class="preco">R$ 700,00</p>
                 <button>Adicionar ao Carrinho</button>
             </div>
-            <div class="product">
+            <div class="produto">
                 <img src="placamae2.jpg" alt="Produto 6">
                 <h3>Placa mãe Mancer</h3>
                 <p>Placa Mae Mancer H610M-DARD, DDR4, Socket LGA1700, M-ATX, Chipset Intel H610</p>
-                <p class="price">R$ 5500,00</p>
+                <p class="preco">R$ 5500,00</p>
                 <button>Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="placadevideo.jpg" alt="Produto 6">
+                <h3>Placa de Vídeo AMD</h3>
+                <p>Placa de Vídeo Radeon RX 6700 <br>
+                   16GB GDDR6 <br>
+                   ASUS</p>
+                <p class="preco">R$ 1500,00</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="placadevideo2.jpg" alt="Produto 6">
+                <h3>Placa de Vídeo NVIDIA</h3>
+                <p>Placa de Video NVIDIA GeForce GTX 1660 Super 6GB GDDR6</p>
+                <p class="preco">R$ 1700,00</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="watercooler.jpg" alt="Produto 6">
+                <h3>Water Cooler</h3>
+                <p>Water Cooler Rise Mode Gamer Black RGB</p>
+                <p class="preco">R$ 300,00</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="watercooler2.png" alt="Produto 6">
+                <h3>Water Cooler</h3>
+                <p>Water Cooler PCYES Sangue Frio 2 240MM INTEL-AMD</p>
+                <p class="preco">R$ 489,00</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            <div class="pagination">
+                <button id="prevPage" onclick="paginaAnterior()">Anterior</button>
+                <button id="nextPage" onclick="proximaPagina()">Próxima</button>
             </div>
         </section>
     </main>
@@ -72,5 +107,6 @@
     <footer>
         <p>&copy; 2023 Informática New World. Todos os direitos reservados.</p>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
