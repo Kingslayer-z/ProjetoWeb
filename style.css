@@ -33,13 +33,13 @@ main {
     margin: 20px auto;
 }
 
-.product {
+.produto {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-.product img {
+.produtoimg {
     max-width: 100%;
 }
 
@@ -56,5 +56,3 @@ footer {
     width: 100%;
     padding: 10px;
 }
-
-
